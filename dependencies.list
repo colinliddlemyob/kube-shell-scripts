@@ -1,3 +1,5 @@
 kubectl
 kubens
 grep
+aws
+session-manager-plugin
