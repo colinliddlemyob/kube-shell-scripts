@@ -11,3 +11,4 @@ alias check-ds-nodes='${KUBE_SCRIPTS_SRC}/alias-scripts/check-daemonset-nodes.sh
 alias check-node-resources='${KUBE_SCRIPTS_SRC}/alias-scripts/check-node-resources.sh'
 alias connect-to-node='${KUBE_SCRIPTS_SRC}/alias-scripts/connect-to-node.sh'
 alias kube-node-taints='kubectl get nodes -o go-template-file="${KUBE_SCRIPTS_SRC}/alias-scripts/node-taints.tmpl"'
+alias eks-auth='aws eks --region ap-southeast-2 update-kubeconfig --name '
